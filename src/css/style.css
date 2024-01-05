@@ -607,6 +607,13 @@ text-align: center;
 
 
 
+/* .content-team {
+  vertical-align: top;
+} */
+
+
+
+
 .button-team {
   width: 121px;
   height: 46px;
@@ -626,6 +633,8 @@ text-align: center;
 .block-text-team {
   font-family: 'Poppins';
   width: 423px;
+  display: inline-block;
+  margin-right: 44px;
 }
 
 .title-team {
@@ -643,6 +652,22 @@ text-align: center;
   font-size: 18px;
   line-height: 26px;
   margin-bottom: 30px;
+}
+
+
+
+
+.avatars-team {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+
+
+.avatars-first-column {
+  display: inline-block;
+  margin-right: 152px;
 }
 
 
@@ -669,6 +694,41 @@ text-align: center;
 }
 
 .status-team-one {
+  font-size: 14px;
+  color: #403E3B;
+}
+
+
+
+
+.avatars-second-column {
+  display: inline-block
+}
+
+
+
+
+.profile-two {
+  display: flex;
+}
+
+.photo-profile-team-two {
+  margin-right: 30px;
+}
+
+.block-text-profile-team-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+.name-team-two {
+  font-size: 16px;
+  color: #1B1A1A;
+  margin-bottom: 6px;
+}
+
+.status-team-two {
   font-size: 14px;
   color: #403E3B;
 }
