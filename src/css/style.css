@@ -7,6 +7,27 @@
   box-sizing: border-box;
 }
 
+
+
+
+header, section, footer {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+
+header {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+
 body {
   background-color: #FFFFFF;
   font-family: 'Poppins';
@@ -606,10 +627,9 @@ text-align: center;
 
 
 
-
-/* .content-team {
-  vertical-align: top;
-} */
+.team {
+  padding: 100px 0 128px 136px;
+}
 
 
 
@@ -660,6 +680,7 @@ text-align: center;
 .avatars-team {
   display: inline-block;
   vertical-align: top;
+  padding-top: 8px;
 }
 
 
@@ -675,6 +696,7 @@ text-align: center;
 
 .profile-one {
   display: flex;
+  margin-bottom: 52px;
 }
 
 .photo-profile-team-one {
@@ -702,7 +724,8 @@ text-align: center;
 
 
 .avatars-second-column {
-  display: inline-block
+  display: inline-block;
+  vertical-align: top;
 }
 
 
@@ -710,6 +733,7 @@ text-align: center;
 
 .profile-two {
   display: flex;
+  margin-bottom: 52px;
 }
 
 .photo-profile-team-two {
@@ -731,4 +755,192 @@ text-align: center;
 .status-team-two {
   font-size: 14px;
   color: #403E3B;
+}
+
+
+
+
+.profile-three {
+  display: flex;
+  margin-bottom: 52px;
+}
+
+.photo-profile-team-three {
+  margin-right: 30px;
+}
+
+.block-text-profile-team-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+.name-team-three {
+  font-size: 16px;
+  color: #1B1A1A;
+  margin-bottom: 6px;
+}
+
+.status-team-three {
+  font-size: 14px;
+  color: #403E3B;
+}
+
+
+
+
+.profile-four {
+  display: flex;
+}
+
+.photo-profile-team-four {
+  margin-right: 30px;
+}
+
+.block-text-profile-team-four{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+.name-team-four {
+  font-size: 16px;
+  color: #1B1A1A;
+  margin-bottom: 6px;
+}
+
+.status-team-four {
+  font-size: 14px;
+  color: #403E3B;
+}
+
+
+
+
+.profile-five {
+  display: flex;
+}
+
+.photo-profile-team-five {
+  margin-right: 30px;
+}
+
+.block-text-profile-team-five{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+.name-team-five {
+  font-size: 16px;
+  color: #1B1A1A;
+  margin-bottom: 6px;
+}
+
+.status-team-five {
+  font-size: 14px;
+  color: #403E3B;
+}
+
+
+
+
+.connection {
+  background-color: #ECE7E4;
+  padding: 100px 136px 117px 136px;
+}
+
+
+
+
+.content-connection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+
+.block-text-connection{
+  width: 460px;
+}
+
+
+
+
+.subtitle-connection{
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  margin-bottom: -4px;
+}
+
+
+
+
+.text-connection {
+  font-size: 32px;
+}
+
+
+
+
+.button-connection {
+  margin: auto 0;
+  width: 133px;
+  height: 46px;
+  border: 0;
+  background-color: transparent;
+  color: #1B1A1A;
+  font-size: 16px;
+  font-family: 'Poppins';
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
+
+
+
+footer {
+  padding: 62px 136px;
+}
+
+
+
+
+.content-footer {
+  justify-content: space-between;
+}
+
+
+
+
+.content-footer {
+  display: flex;
+}
+
+
+
+
+.logo-footer {
+  margin-bottom: 20px;
+}
+
+
+
+
+.text-footer {
+  font-size: 14px;
+  color: #403E3B;
+}
+
+
+
+
+.social-media-footer {
+  display: flex;
+  margin: auto 0;
+  gap: 20px;
+  height: 24px;
 }
