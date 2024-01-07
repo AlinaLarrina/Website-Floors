@@ -2,13 +2,9 @@
   font-family: "Poppins";
   src: url("../fonts/Poppins-Regular.ttf");
 }
-
 * {
   box-sizing: border-box;
 }
-
-
-
 
 header, section, footer {
   max-width: 1440px;
@@ -16,21 +12,15 @@ header, section, footer {
   margin: 0 auto;
 }
 
-
-
-
 header {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
 }
 
-
-
-
 body {
   background-color: #FFFFFF;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   width: 100%;
   margin: 0 auto;
 }
@@ -212,9 +202,6 @@ nav {
   color: #403E3B;
 }
 
-
-
-
 .section-3-screen {
   display: flex;
   justify-content: space-between;
@@ -229,14 +216,13 @@ nav {
   color: #403E3B;
 }
 
-
 .section-background-image-with-text {
   position: relative;
   display: flex;
   align-items: center;
   height: 600px;
   width: 100%;
-  }
+}
 
 .section-background-image-with-text img {
   position: absolute;
@@ -244,12 +230,12 @@ nav {
   left: 0;
 }
 
-.section-background-image-with-text p{
+.section-background-image-with-text p {
   color: #403E3B;
   position: relative;
 }
 
-.block-text-background-image{
+.block-text-background-image {
   margin-right: 32px;
   margin-left: auto;
   width: 268px;
@@ -267,16 +253,15 @@ nav {
   line-height: 24px;
 }
 
-
-.about{
-padding-top: 100px;
+.about {
+  padding-top: 100px;
 }
 
-.about-block-text p{
-text-align: center;
+.about-block-text p {
+  text-align: center;
 }
 
-.about-subtitle{
+.about-subtitle {
   color: #403E3B;
   font-size: 14px;
   line-height: 24px;
@@ -289,7 +274,6 @@ text-align: center;
   line-height: 42px;
   margin: 13px 0 47px 0;
 }
-
 
 .cards-with-icons {
   display: flex;
@@ -326,13 +310,10 @@ text-align: center;
   line-height: 24px;
 }
 
-.icons-first-card{
+.icons-first-card {
   top: 0;
   max-width: 117px;
 }
-
-
-
 
 .second-card {
   width: 380px;
@@ -362,13 +343,10 @@ text-align: center;
   line-height: 24px;
 }
 
-.icons-second-card{
+.icons-second-card {
   top: 0;
   max-width: 117px;
 }
-
-
-
 
 .third-card {
   width: 380px;
@@ -398,11 +376,10 @@ text-align: center;
   line-height: 24px;
 }
 
-.icons-third-card{
+.icons-third-card {
   top: 0;
   max-width: 117px;
 }
-
 
 .image-with-text-second {
   position: relative;
@@ -411,7 +388,7 @@ text-align: center;
   height: 600px;
   width: 100%;
   margin-top: 100px;
-  }
+}
 
 .image-with-text-second img {
   position: absolute;
@@ -419,12 +396,12 @@ text-align: center;
   left: 0;
 }
 
-.image-with-text-second p{
+.image-with-text-second p {
   color: #403E3B;
   position: relative;
 }
 
-.block-text-background-image-second{
+.block-text-background-image-second {
   margin-right: 32px;
   margin-left: auto;
   width: 268px;
@@ -441,7 +418,6 @@ text-align: center;
   font-size: 16px;
   line-height: 24px;
 }
-
 
 .clients {
   height: 410px;
@@ -490,14 +466,13 @@ text-align: center;
   gap: 96px;
 }
 
-
 .image-with-text-third {
   position: relative;
   display: flex;
   align-items: center;
   height: 600px;
   width: 100%;
-  }
+}
 
 .image-with-text-third img {
   position: absolute;
@@ -505,12 +480,12 @@ text-align: center;
   left: 0;
 }
 
-.image-with-text-third p{
+.image-with-text-third p {
   color: #403E3B;
   position: relative;
 }
 
-.block-text-background-image-third{
+.block-text-background-image-third {
   margin-right: auto;
   margin-left: 60px;
   width: 268px;
@@ -527,9 +502,6 @@ text-align: center;
   font-size: 16px;
   line-height: 24px;
 }
-
-
-
 
 .projects {
   background-color: #F7F7F7;
@@ -566,9 +538,6 @@ text-align: center;
   margin-bottom: 40px;
 }
 
-
-
-
 .button-projects {
   width: 180px;
   height: 46px;
@@ -579,11 +548,8 @@ text-align: center;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.4px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
-
-
-
 
 .content-card-projects-two {
   position: relative;
@@ -608,14 +574,11 @@ text-align: center;
   font-size: 24px;
 }
 
-
-
-
 .button-card-more {
   background: #1B1A1A;
   border: 0;
   color: #FFFFFF;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   border-radius: 14px;
   margin: 370px 197px 40px 40px;
   width: 133px;
@@ -625,14 +588,9 @@ text-align: center;
   position: absolute;
 }
 
-
-
 .team {
   padding: 100px 0 128px 136px;
 }
-
-
-
 
 .button-team {
   width: 121px;
@@ -644,14 +602,11 @@ text-align: center;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.4px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
-
-
-
 .block-text-team {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   width: 423px;
   display: inline-block;
   margin-right: 44px;
@@ -674,25 +629,16 @@ text-align: center;
   margin-bottom: 30px;
 }
 
-
-
-
 .avatars-team {
   display: inline-block;
   vertical-align: top;
   padding-top: 8px;
 }
 
-
-
-
 .avatars-first-column {
   display: inline-block;
   margin-right: 152px;
 }
-
-
-
 
 .profile-one {
   display: flex;
@@ -706,7 +652,7 @@ text-align: center;
 .block-text-profile-team-one {
   display: flex;
   flex-direction: column;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .name-team-one {
@@ -720,16 +666,10 @@ text-align: center;
   color: #403E3B;
 }
 
-
-
-
 .avatars-second-column {
   display: inline-block;
   vertical-align: top;
 }
-
-
-
 
 .profile-two {
   display: flex;
@@ -743,7 +683,7 @@ text-align: center;
 .block-text-profile-team-two {
   display: flex;
   flex-direction: column;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .name-team-two {
@@ -757,9 +697,6 @@ text-align: center;
   color: #403E3B;
 }
 
-
-
-
 .profile-three {
   display: flex;
   margin-bottom: 52px;
@@ -772,7 +709,7 @@ text-align: center;
 .block-text-profile-team-three {
   display: flex;
   flex-direction: column;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .name-team-three {
@@ -786,9 +723,6 @@ text-align: center;
   color: #403E3B;
 }
 
-
-
-
 .profile-four {
   display: flex;
 }
@@ -797,10 +731,10 @@ text-align: center;
   margin-right: 30px;
 }
 
-.block-text-profile-team-four{
+.block-text-profile-team-four {
   display: flex;
   flex-direction: column;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .name-team-four {
@@ -814,9 +748,6 @@ text-align: center;
   color: #403E3B;
 }
 
-
-
-
 .profile-five {
   display: flex;
 }
@@ -825,10 +756,10 @@ text-align: center;
   margin-right: 30px;
 }
 
-.block-text-profile-team-five{
+.block-text-profile-team-five {
   display: flex;
   flex-direction: column;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .name-team-five {
@@ -842,16 +773,10 @@ text-align: center;
   color: #403E3B;
 }
 
-
-
-
 .connection {
   background-color: #ECE7E4;
   padding: 100px 136px 117px 136px;
 }
-
-
-
 
 .content-connection {
   display: flex;
@@ -859,32 +784,20 @@ text-align: center;
   justify-content: space-between;
 }
 
-
-
-
-.block-text-connection{
+.block-text-connection {
   width: 460px;
 }
 
-
-
-
-.subtitle-connection{
+.subtitle-connection {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 2px;
   margin-bottom: -4px;
 }
 
-
-
-
 .text-connection {
   font-size: 32px;
 }
-
-
-
 
 .button-connection {
   margin: auto 0;
@@ -894,49 +807,31 @@ text-align: center;
   background-color: transparent;
   color: #1B1A1A;
   font-size: 16px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   line-height: 24px;
   letter-spacing: 0.4px;
 }
-
-
-
 
 footer {
   padding: 62px 136px;
 }
 
-
-
-
 .content-footer {
   justify-content: space-between;
 }
-
-
-
 
 .content-footer {
   display: flex;
 }
 
-
-
-
 .logo-footer {
   margin-bottom: 20px;
 }
-
-
-
 
 .text-footer {
   font-size: 14px;
   color: #403E3B;
 }
-
-
-
 
 .social-media-footer {
   display: flex;
@@ -944,3 +839,5 @@ footer {
   gap: 20px;
   height: 24px;
 }
+
+/*# sourceMappingURL=style.css.map */
